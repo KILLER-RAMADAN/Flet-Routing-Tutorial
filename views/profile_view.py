@@ -21,7 +21,7 @@ def ProfileView(router):
                 ),
                 ft.Row(
                     [
-                        ft.Text("Name: CodingJQ")
+                        ft.Text("Name:Ahmed Ramadan")
                     ],
                 ),
                 ft.Row(

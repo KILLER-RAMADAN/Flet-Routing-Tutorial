@@ -3,6 +3,7 @@ from views.index_view import IndexView
 from views.profile_view import ProfileView
 from views.settings_view import SettingsView
 from views.data_view import DataView
+from views.ahmed import ProfileView
 
 router = Router(DataStrategyEnum.QUERY)
 
@@ -10,5 +11,7 @@ router.routes = {
   "/": IndexView,
   "/profile": ProfileView,
   "/settings": SettingsView,
-  "/data": DataView
+  "/data": DataView,
+  "/ahmed": ProfileView,
+  
 }

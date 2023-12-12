@@ -14,7 +14,8 @@ def NavBar(page):
             actions=[
                 ft.IconButton(ft.icons.HOME, on_click=lambda _: page.go('/')),
                 ft.IconButton(ft.icons.PERSON_ROUNDED, on_click=lambda _: page.go('/profile')),
-                ft.IconButton(ft.icons.SETTINGS_ROUNDED, on_click=lambda _: page.go('/settings'))
+                ft.IconButton(ft.icons.SETTINGS_ROUNDED, on_click=lambda _: page.go('/settings')),
+                ft.IconButton(ft.icons.SETTINGS_ROUNDED, on_click=lambda _: page.go('/ahmed'))
             ]
         )
 
